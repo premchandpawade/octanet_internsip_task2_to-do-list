@@ -1,0 +1,71 @@
+html, body{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Bitter', serif;
+    font-family: 'Carter One', cursive;
+    font-family: 'Domine', serif;
+}
+.container{
+    width: 500px;
+}
+#inputField{
+    width: 393px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -5px;
+}
+#addToDO{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+button{
+    height: 49px;
+    width: 101px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 0px 10px 10px 0px;
+    background-color: yellow;
+    outline: none;
+}
+.box{
+    width: 500px;
+    background-color:pink;
+    height: 700px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 3px 60px 0px 60px;
+    box-shadow: 4px 4px 6px grey;   
+}
+.paragraph-style{
+    margin: 0;
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    margin: 3%;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.to-dos{
+    margin-top: 30px;
+}
